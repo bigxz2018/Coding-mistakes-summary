@@ -1,0 +1,1 @@
+Mysql encoding mistake: change ur sql files'encode to 'latin1'
