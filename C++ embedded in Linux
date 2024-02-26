@@ -1,0 +1,4 @@
+How to install g++ in Ubnut?
+1.using "su" or "sudo root passwd" to get into root mode/change your root passwd
+2.using "apt install g++"
+3.using "g++ -v"
