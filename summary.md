@@ -34,6 +34,10 @@ when I suddenly realize this could be simplfiy to an math problem, but didn't us
 
 combine these 2 together:
 
+    char let = '（any A-Z or other ACSII characters）';
+    char start;
+    char start2;
+    char end;
     for(end = 'A';end <= let;end++){
         for(start ='A';start<= end;start++){
             printf("%c",start);  
