@@ -2,3 +2,13 @@ How to install g++ in Ubnut?
 1.using "su" or "sudo root passwd" to get into root mode/change your root passwd
 2.using "apt install g++"
 3.using "g++ -v"
+
+how to open cmd in any file's cd?
+1.open the direction file your cpp file at
+2.mouse putting on the direction blank above, click once while it all select, then using 'cmd' replacing
+
+how to complie your own projects?
+1.open cmd
+2.'cd' to the direction where your files sits at
+3.using 'g++/gcc   yourfilename_1.any_types   yourfilename_2.any_types   yourfilename_3.any_types ………… -o your_exe_file_name.exe'
+4.print  'your_exe_file_name.exe'  to cmd to watch the effect!
