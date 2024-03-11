@@ -9,9 +9,10 @@ ABCBA
 ABCDCBA
 (while you get this func a 'D')
 when I suddenly realize this could be simplfiy to an math problem, but didn't using any resource on any froum, though I make this within 40 mins:
-{
+
 //solving the outside, making sure 1,2,3,4,5……sequal
-int a,b,c;
+    
+    int a,b,c;
     a=5;
     for(b=0;b<=a;b++){
         for(c=a-b;c<=a;c++){
@@ -21,7 +22,8 @@ int a,b,c;
     }
 
 //inside, which took me at least 30 mins to figure how to make them interating without messing up with the main loop
-   int a,b,c;
+    
+    int a,b,c;
     a=5;
     for(b=0;b<=a;b++){
         for(c=a-b;c<=a;c++){
@@ -29,7 +31,7 @@ int a,b,c;
     }
         printf("\n");
     }
-}
+
 combine these 2 together:
 
     for(end = 'A';end <= let;end++){
