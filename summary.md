@@ -54,8 +54,10 @@ combine these 2 together:
  1.pow(x,y) while you using "^" as to get numbers's squares, it will leads to some mistakes due to the unsolving Binary prolems, such case you can solve the problem by using a function name pow(oringal number, square number)
  2.fomd(x,y) when you want to get the deviding left number, using '%' on any integer is corect, but when you meet float, you can using fmod(x, y) for problems solvig, which wouldn't making mistakes as possible than the formet one.
 
-
-
+5.differences between [ getchar() and scanf() ]
+    when using scanf() (without specific situation like:you make some codition youself), it will stop while reading notchar type characters like '\n'、' '(space), which getchar()willnot, bcs getchar() read one char at once. based on that, you can using both functs but using getchar() after scanf() for "clearing the '\n' in the buffer" in case of program reconize you need to judge some codition, or using getchar() all the time to aviod them.
+    getchar() using Ctrl+Z to stop reading.It don't need any parameter, so you can code like this : putchar(getchar()); it means print user's input.
+ 
 
 
 
