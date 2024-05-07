@@ -57,6 +57,18 @@ combine these 2 together:
 5.differences between [ getchar() and scanf() ]
     when using scanf() (without specific situation like:you make some codition youself), it will stop while reading notchar type characters like '\n'、' '(space), which getchar()willnot, bcs getchar() read one char at once. based on that, you can using both functs but using getchar() after scanf() for "clearing the '\n' in the buffer" in case of program reconize you need to judge some codition, or using getchar() all the time to aviod them.
     getchar() using Ctrl+Z to stop reading.It don't need any parameter, so you can code like this : putchar(getchar()); it means print user's input.
+
+6.STL::iterator
+    Iterator can be seemed as pointer, it could be gainter any types like 
+    
+      std::vector<int> myvector;    //codes on cppoffical
+      for (int i=1; i<=5; i++) myvector.push_back(i);
+      
+      std::cout << "myvector contains:";
+      for (std::vector<int>::iterator it = myvector.begin() ; it != myvector.end(); ++it)
+      std::cout << ' ' << *it;
+      std::cout << '\n';
+    '''
  
 
 
